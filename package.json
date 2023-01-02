@@ -1,0 +1,22 @@
+{
+  "name": "22games",
+  "version": "1.0.0",
+  "description": "Educational games for kids",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glowkapracuje/22Games.git"
+  },
+  "keywords": [
+    "matchingGame"
+  ],
+  "author": "Piotr Główka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Glowkapracuje/22Games/issues"
+  },
+  "homepage": "https://github.com/Glowkapracuje/22Games#readme"
+}
