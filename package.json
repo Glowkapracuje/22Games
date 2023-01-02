@@ -4,7 +4,9 @@
   "description": "Educational games for kids",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass src/styles/sass/main.scss src/styles/css/style.css -w",
+    "build": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/Glowkapracuje/22Games/issues"
   },
-  "homepage": "https://github.com/Glowkapracuje/22Games#readme"
+  "homepage": "https://github.com/Glowkapracuje/22Games#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
